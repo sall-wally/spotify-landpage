@@ -1,12 +1,28 @@
 #back{
     background-color: #121212;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
 }
+
+
 #spotify-logo{
-    filter:invert(100%);
+    margin-right: 350px;
+}
+h2{
+    font-size:medium;
+}
+#home{
+    background-color: #7c7c7c15;
+    border-radius:100px ;
+    
 }
 .logo{
     width: 40px;
     height: 40px;
+    filter:invert(100%);
+}
+p{
+    border:2px;
 }
 nav{
     display:flex;
@@ -16,21 +32,59 @@ nav{
 .bar{
     display:flex;
     align-items: center;
+    font-size: smaller;
+    gap:20px;
 }
 #search{
     display: flex;
-    align-content:center
+    align-content:center;
+    background-color: #7c7c7c15;
+    border-radius: 100px;
+    width: 400px;
+    height: 40px;
+    color:#ffff;
    
 }  
-#search-logo{
-    height:60px;
+#play{
+    padding-right: 150px;
 }
 #right-nav{
     display:flex;
-    align-items: flex-end;
-    font-size: medium;
+    font-size:12px;
+    
     
 }
+#log{
+    padding-left: 20px;
+}
+#log-in{
+    background-color: #ffff;
+    border-radius: 100px;
+    color:black;
+    width: 120px;
+    height:40px;
+}
+#download{ 
+ filter:invert(50%);
+ height: 15px;
+ width: 15px;
+ border:solid #ffff ;
+border-radius: 50px;
+}
+
+#install{
+    display: flex;
+    align-items: center;
+
+}
+#in{
+    padding-left: 5px;
+}
+#prem{
+    padding-right: 20px;
+}
+
+
 .help-words{
     color:white;
     padding: 10px;
@@ -54,11 +108,7 @@ main{
     height: 20px;
 
 }
-#home{
-    background-color: #7c7c7c10;
-    border-radius:100px ;
-    
-}
+
 .help-words{
     color:white;
     font-size: larger;
@@ -69,17 +119,20 @@ main{
     display: flex;
 }
 #side{
-    background-color: #7c7c7c10;
+    background-color: #7c7c7c15;
     width:20vw
+}
+main{
+     Background-color:#7c7c7c15;
 }
 .album-art{
     height: 140px;
     width:140px;
+    border-radius: 3px;
 }
 .albums-wrapper{
-    width:75vw;
-    justify-content: left;
-    Background-color:#7c7c7c10;
+   
+    justify-content: right;
     display:grid;
     grid-template-columns:repeat(8,1fr) ;
     color:white;

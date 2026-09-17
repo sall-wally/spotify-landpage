@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="replication of spotify landing page">
     <link rel="stylesheet" href="global.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     <title>Spotify landing page </title>
 </head>
 <body id="back">
@@ -16,21 +19,25 @@
             <div class="bar">
                      <img src="./images/Spotify/Images/Icons/home-icon.png" alt="home button" class="logo" id="home">
                     <div id="search">
-                         <img src="./images/Spotify/Images/Icons/search-icon.png" alt="search-icon" id="search-logo">
-                        <p>What do you want to play?</p>
+                         <img src="./images/Spotify/Images/Icons/search-icon.png" alt="search-icon" class="logo">
+                        <p id="play">What do you want to play?</p>
+                        <img src="./images/Spotify/Images/Icons/laundry-basket-icon.png" alt="laundry basket" class="logo">
                     </div>
             </div>
             <div id="right-nav">
-                <div class="bar">
+                <div class="bar" id="prem">
                         <h2> Premium </h2>
                         <h2> Support </h2>
                         <h2> Download </h2>
                     </div>
-                <div class="bar">
-                    <img src="./images/Spotify/Images/Icons/download-icon.png" alt="download" id="download">
-                        <h2> Install app</h2>
+                <div class="bar" id="log">
+                    <div id="install">
+                        <img src="./images/Spotify/Images/Icons/download-icon.png" alt="download" id="download">
+                        <h2 id="in"> Install app</h2>
+                     </div>
                         <h2>Sign up </h2>
-                        <h2>Log in</h2>
+                        <button id="log-in">Log in</button>
+
                 </div>
             </div>
 
@@ -69,6 +76,7 @@
             
         </aside>
         <main>
+            <h2> Popular albums</h2>
             <div class="albums-wrapper">
                 
 
