@@ -1,0 +1,97 @@
+#back{
+    background-color: #121212;
+}
+#spotify-logo{
+    filter:invert(100%);
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    height: 60px;
+}
+.bar{
+    display:flex;
+    align-items: center;
+}
+#search{
+    display: flex;
+    align-content:center
+   
+}  
+#search-logo{
+    height:60px;
+}
+#right-nav{
+    display:flex;
+    align-items: flex-end;
+    font-size: medium;
+    
+}
+.help-words{
+    color:white;
+    padding: 10px;
+    font-size: 12px;
+    
+}
+main{
+    display:grid;
+
+}
+#library{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    text-align: center;
+}
+#add{
+    width: 20px;
+    height: 20px;
+
+}
+#home{
+    background-color: #7c7c7c10;
+    border-radius:100px ;
+    
+}
+.help-words{
+    color:white;
+    font-size: larger;
+    display:flex
+   
+}
+#Main{
+    display: flex;
+}
+#side{
+    background-color: #7c7c7c10;
+    width:20vw
+}
+.album-art{
+    height: 140px;
+    width:140px;
+}
+.albums-wrapper{
+    width:75vw;
+    justify-content: left;
+    Background-color:#7c7c7c10;
+    display:grid;
+    grid-template-columns:repeat(8,1fr) ;
+    color:white;
+           
+}
+.album-container{
+    Width:140px;
+    max-width: 140px;
+    overflow-wrap: break-word; 
+    padding:10px;
+}
+
+h2{
+    color:white;
+}
