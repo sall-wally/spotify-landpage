@@ -103,10 +103,27 @@ main{
     color:white;
     text-align: center;
 }
+#lib{
+    font-size:x-large;
+}
 #add{
     width: 20px;
     height: 20px;
 
+}
+.additions{
+    color:#ffff;
+    background-color:#7c7c7c20;
+    border-radius:5px;
+    margin:12px;
+    height:140px;
+}
+.additions-content{
+    padding:6px;
+    padding-left: 12px;
+}
+.additions-buttons{
+    border-radius: 20%;
 }
 
 .help-words{
@@ -117,14 +134,24 @@ main{
 }
 #Main{
     display: flex;
+    justify-content: space-between;
+    
 }
 #side{
     background-color: #7c7c7c15;
-    width:20vw
+    width:25vw;
+    border-radius: 5px;
+
 }
 main{
      Background-color:#7c7c7c15;
-}
+     width:73vw;
+     border-radius: 5px;
+    }
+    #pop{
+     font-size: xx-large;
+     margin-top: 70px;
+    }
 .album-art{
     height: 140px;
     width:140px;
@@ -132,7 +159,7 @@ main{
 }
 .albums-wrapper{
    
-    justify-content: right;
+    justify-content: left;
     display:grid;
     grid-template-columns:repeat(8,1fr) ;
     color:white;
@@ -147,4 +174,8 @@ main{
 
 h2{
     color:white;
+}
+footer{
+    row-gap:10px;
+    
 }
