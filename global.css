@@ -42,12 +42,24 @@ nav{
     border-radius: 100px;
     width: 400px;
     height: 40px;
-    color:#ffff;
+   color:#7c7c7c60;
    
 }  
 #play{
     padding-right: 150px;
+    border-right: white 1px solid;
+    color:#7c7c7c;
+    font-size:small;
 }
+.grey-words{
+    color:#b3b3b3;
+}
+#load{
+    padding-right: 50px;
+    border-right: white 1px solid;
+    color:#b3b3b3;
+}
+
 #right-nav{
     display:flex;
     font-size:12px;
@@ -61,8 +73,11 @@ nav{
     background-color: #ffff;
     border-radius: 100px;
     color:black;
-    width: 120px;
+    width: 110px;
     height:40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 #download{ 
  filter:invert(50%);
@@ -83,8 +98,6 @@ border-radius: 50px;
 #prem{
     padding-right: 20px;
 }
-
-
 .help-words{
     color:white;
     padding: 10px;
@@ -104,11 +117,14 @@ main{
     text-align: center;
 }
 #lib{
-    font-size:x-large;
+    font-size:larger;
+    padding:10px;
+    margin-left: 15px;
 }
 #add{
     width: 20px;
     height: 20px;
+    padding-right: 30px;
 
 }
 .additions{
@@ -123,9 +139,37 @@ main{
     padding-left: 12px;
 }
 .additions-buttons{
-    border-radius: 20%;
+    border-radius: 50px;
+    background-color: #ffffff;
+    padding:6px;
+    padding-left: 12px;
+    color: black;
+    max-width:115px;
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+    padding-left:15px;
+    margin-left: 15px;
 }
-
+.aside-words{
+    display:flex;
+    gap: 20px;
+    font-size:smaller;
+}
+#privacy{
+    background-color: #1ABC5490;
+    border-radius:50px;
+    max-width: 137px;
+    font-size:small;
+}
+#aside-stuff{
+    display:flex;
+   
+}
+#check{
+    max-width: 80px;
+    max-height: 80px;
+}
 .help-words{
     color:white;
     font-size: larger;
